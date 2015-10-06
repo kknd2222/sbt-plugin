@@ -10,6 +10,7 @@ object MyPlugin extends Plugin {
   val newSettings = Seq(
     newSetting := "test",
     newTask <<= newSetting map { str => println(str) }
+    
   )
 }
 
