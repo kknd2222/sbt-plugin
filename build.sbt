@@ -9,5 +9,5 @@ organization := "org.hashgeek"
 resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "1.7.1" % "test"
+  "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 )
