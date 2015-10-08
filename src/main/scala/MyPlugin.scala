@@ -8,7 +8,7 @@ object MyPlugin extends Plugin {
   val newSetting = SettingKey[String]("new-setting")
 
   val newSettings = Seq(
-    newSetting := "test",
+    newSetting := "test-1",
     newTask <<= newSetting map { str => println(str) }
     
   )
